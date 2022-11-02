@@ -1,12 +1,8 @@
 import styled from "styled-components";
 
 const Nav = styled.nav`
-    background: #c52e1d;
-    padding: 1rem;
     ul {
-        margin: 0;
-        padding: 1rem;
-        background: #c52e1d;
+        margin: 0 !important;
         list-style:none;
         li{
             display : inline-block;
@@ -25,6 +21,7 @@ const Nav = styled.nav`
         color: #0D0C1D;
         text-decoration: none;
         transition: color 0.3s linear;
+        gap: 1rem;
     
         &:hover {
           color: #343078;

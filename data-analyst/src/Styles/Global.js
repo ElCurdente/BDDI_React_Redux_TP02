@@ -29,6 +29,8 @@ const GlobalStyle = createGlobalStyle`
     padding : 0;
     text-align : left;
   }
+
+  
 `;
 
 export default GlobalStyle;
